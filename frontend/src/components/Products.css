@@ -1,0 +1,26 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+  gap: 2rem;
+}
+.product_page-main {
+  padding: 10px;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.product-details {
+  border: 2px dotted red;
+  width: 30vw;
+}
+.logout {
+  background-color: #ffc473;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
